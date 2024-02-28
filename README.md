@@ -7,25 +7,24 @@ Este é um script personalizado em bash que executa o docker-compose e reproduz 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-# Dependências
+## Dependências
 
 Serão instaladas automaticamente pelo script:
 
 - [mpg123](https://www.mpg123.de/download.shtml)
 
 ## Instalação
-
+Após clonar, vá até a raiz desse projeto e execute:
 ```bash
-git clone
-cd docker-com-poze
-chmod +x install.sh
-./install.sh
+> chmod +x install.sh
+> sudo ./install.sh
 ```
 
 ## Uso
 
-Em qualquer diretório que contenha um arquivo `docker-compose.yml`, execute o comando:
+Em qualquer diretório que contenha um arquivo `docker-compose.yml`, execute o comando em vez de `docker compose`.
 
+Por exemplo:
 ```bash
 docker-com-poze up -d
 ```
